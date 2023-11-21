@@ -5,7 +5,7 @@ public class Cat extends Animal
     @Override
     protected void run (int lengthOfBarrier)
     {
-        if (lengthOfBarrier <= 200)
+        if (lengthOfBarrier > 0 && lengthOfBarrier <= 200)
         {
             System.out.println("Cat is running " + lengthOfBarrier + " meters");
         }

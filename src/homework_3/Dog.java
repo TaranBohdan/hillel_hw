@@ -5,7 +5,7 @@ public class Dog extends Animal
     @Override
     protected void run (int lengthOfBarrier)
     {
-        if (lengthOfBarrier <= 500)
+        if (lengthOfBarrier > 0 && lengthOfBarrier <= 500)
         {
             System.out.println("Dog is running " + lengthOfBarrier + " meters");
         }
@@ -18,7 +18,7 @@ public class Dog extends Animal
     @Override
     protected void swim (int lengthOfBarrier)
     {
-        if (lengthOfBarrier <= 10)
+        if (lengthOfBarrier > 0 && lengthOfBarrier <= 10)
         {
             System.out.println("Dog is swimming " + lengthOfBarrier + " meters");
         }
