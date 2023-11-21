@@ -90,4 +90,18 @@ public class Employee
     {
         this.age = age;
     }
+
+    @Override
+    public String toString()
+    {
+        return "Employee{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", patronymic='" + patronymic + '\'' +
+                ", jobRole='" + jobRole + '\'' +
+                ", email='" + email + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
