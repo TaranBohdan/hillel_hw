@@ -11,7 +11,7 @@ public class Cat extends Animal
         }
         else
         {
-            System.out.println("The cat cannot run more than 200 meters. Your value was " + lengthOfBarrier);
+            System.out.println("The cat cannot run more than 200 meters or less than 1. Your value was " + lengthOfBarrier);
         }
     }
 

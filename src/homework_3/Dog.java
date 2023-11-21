@@ -11,7 +11,7 @@ public class Dog extends Animal
         }
         else
         {
-            System.out.println("The dog cannot run more than 500 meters. Your value was " + lengthOfBarrier);
+            System.out.println("The dog cannot run more than 500 meters or less than 1. Your value was " + lengthOfBarrier);
         }
     }
 
@@ -24,7 +24,7 @@ public class Dog extends Animal
         }
         else
         {
-            System.out.println("The dog cannot swim more than 10 meters. Your value was " + lengthOfBarrier);
+            System.out.println("The dog cannot swim more than 10 meters or less than 1. Your value was " + lengthOfBarrier);
         }
     }
 }
