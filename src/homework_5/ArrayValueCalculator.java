@@ -9,7 +9,7 @@ public class ArrayValueCalculator
     {
         if (array.length != 4 || array[0].length != 4 || array[1].length != 4 || array[2].length != 4 || array[3].length != 4)
         {
-            throw new ArraySizeException("Your array is more as 4x4");
+            throw new ArraySizeException("Your array is more or less as 4x4");
         }
 
         int sum = 0;

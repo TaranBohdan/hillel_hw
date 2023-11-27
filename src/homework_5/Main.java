@@ -3,8 +3,6 @@ package homework_5;
 import homework_5.exceptions.ArrayDataException;
 import homework_5.exceptions.ArraySizeException;
 
-import java.util.Scanner;
-
 public class Main
 {
     public static void main(String[] args)
